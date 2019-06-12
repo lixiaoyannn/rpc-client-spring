@@ -13,5 +13,6 @@ public class App
                 (IHellloService.class,"localhost",8080);
         Object result = iHellloService.sayhello("liying");
         System.out.println(result);
+
     }
 }
